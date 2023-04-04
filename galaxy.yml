@@ -1,12 +1,13 @@
 ---
-namespace: ivansible
+namespace: claranet
 name: server
-version: 1.0.0
+version: 1.0.1
 
 description: Ansible collection for Databases and server software
 
 authors:
   - Ivan Andreev <ivandeex@gmail.com>
+  - Jérôme Respaut <jerome.respaut@fr.clara.net>
 
 tags:
   - linux
@@ -28,10 +29,10 @@ tags:
 # namespace.name: version_range
 dependencies: {}
 
-repository: https://github.com/ivansible/server
-documentation: https://github.com/ivansible/server
-homepage: https://github.com/ivansible/server
-issues: https://github.com/ivansible/server/issues
+repository: https://github.com/claranet/server
+documentation: https://github.com/claranet/server
+homepage: https://github.com/claranet/server
+issues: https://github.com/claranet/server/issues
 
 readme: README.md
 license: MIT
