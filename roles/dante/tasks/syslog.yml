@@ -32,6 +32,9 @@
           {{ commentout }}compress
           {{ commentout }}delaycompress
           sharedscripts
+          postrotate
+              /usr/lib/rsyslog/rsyslog-rotate
+          endscript
       }
     force: true
     mode: 0644
