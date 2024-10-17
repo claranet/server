@@ -33,7 +33,7 @@
           {{ commentout }}delaycompress
           sharedscripts
           postrotate
-              invoke-rc.d rsyslog rotate > /dev/null 2> /dev/null
+              /usr/lib/rsyslog/rsyslog-rotate
           endscript
       }
     force: true
